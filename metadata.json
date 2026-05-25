@@ -1,0 +1,6 @@
+{
+  "name": "sSUPER MARKET",
+  "description": "An online supermarket web application offering food and home kitchen products—fresh fruits, vegetables, beverages, pantry items, dairy, and kitchenware—with a fully interactive shopping cart and Ethiopian-inspired UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
