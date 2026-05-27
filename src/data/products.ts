@@ -1,7 +1,7 @@
 import { Product } from "../types";
 
 export const STORE_INFO = {
-  name: "SUPER MARKET",
+  name: "H SUPERMARKET",
   location: "Torhayloch Roundabout, Ring Road, Addis Ababa, Ethiopia",
   landmark: "Next to the Torhayloch Traffic Square, adjacent to the Commercial Bank of Ethiopia branch",
   // Masked phone numbers for public display per request

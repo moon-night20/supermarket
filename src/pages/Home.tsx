@@ -98,7 +98,7 @@ export const Home: React.FC = () => {
                 Sourced from local farms around Addis. Skip the traditional market traffic. From Holeta organic potatoes to fresh Assosa mangoes, order everything fresh right to your doorstep in Torhayloch.
               </Typography>
               <Typography variant="h6" sx={{ fontWeight: 800, mb: 1 }}>
-                welcome to our online shop
+                hello welcome to our market
               </Typography>
               <Typography variant="body2" sx={{ opacity: 0.9, mb: 3 }}>
                 we hop you enjoy it

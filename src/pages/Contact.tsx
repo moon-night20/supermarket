@@ -40,7 +40,7 @@ export const Contact: React.FC = () => {
     // Dry run timeout
     setTimeout(() => {
       setLoading(false);
-      triggerNotification(`Thank you, ${name}! Your feedback has been sent to our Torhayloch support team. We will call you within 2 hours.`, "success");
+  triggerNotification(`Thank you, ${name}! Your feedback has been sent to our H SUPERMARKET support team. We will call you within 2 hours.`, "success");
       
       // Clear values
       setName("");
@@ -69,7 +69,7 @@ export const Contact: React.FC = () => {
           Get In Touch With Us
         </Typography>
         <Typography variant="body1" color="text.secondary" sx={{ mt: 1, maxWidth: 600, mx: "auto" }}>
-          Have requests for grocery delivery, catering, or bulk food & home kitchen supplies? Send us a message or visit our Torhayloch Supermarket flagship store in Addis Ababa.
+          Have requests for grocery delivery, catering, or bulk food & home kitchen supplies? Send us a message or visit our H SUPERMARKET flagship store in Addis Ababa.
         </Typography>
       </Box>
 
@@ -90,7 +90,7 @@ export const Contact: React.FC = () => {
                     <MapPin size={22} className="text-orange-400 shrink-0 mt-0.5" />
                     <div>
                       <Typography variant="subtitle2" sx={{ fontWeight: 800 }}>
-                        Torhayloch Roundabout
+                        H SUPERMARKET Location
                       </Typography>
                       <Typography variant="caption" sx={{ color: "grey.300" }}>
                         {STORE_INFO.landmark}

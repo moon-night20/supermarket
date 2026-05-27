@@ -57,10 +57,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCart }) => {
         <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 1, my: 2 }}>
         <Sprout className="text-emerald-600" size={28} />
         <Typography variant="h6" sx={{ fontWeight: 900, color: "primary.main" }}>
-          sSUPER
+          H
         </Typography>
         <Typography variant="h6" sx={{ fontWeight: 900, color: "secondary.main" }}>
-          MARKET
+          SUPERMARKET
         </Typography>
       </Box>
       <Divider sx={{ mb: 2 }} />
@@ -155,8 +155,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCart }) => {
               </div>
               <div>
                 <div className="flex items-center">
-                  <span className="text-lg md:text-xl font-bold text-slate-800 tracking-tight">sSUPER</span>
-                  <span className="text-lg md:text-xl font-bold text-green-600 tracking-tight ml-0.5">MARKET</span>
+                  <span className="text-lg md:text-xl font-bold text-slate-800 tracking-tight">H</span>
+                  <span className="text-lg md:text-xl font-bold text-green-600 tracking-tight ml-0.5">SUPERMARKET</span>
                 </div>
                 <div className="text-[9px] text-slate-400 font-sans tracking-wide -mt-0.5 hidden sm:block">📍 ADDIS ABABA • FRESH FOODS</div>
               </div>
