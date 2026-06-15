@@ -75,7 +75,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onViewDetail 
       </Box>
 
       {/* Product Image Stage */}
-      <Box sx={{ position: "relative", pt: "75%", /* 4:3 Ratio */ overflow: "hidden", borderRadius: "16px 16px 0 0", bgcolor: "#f1f5f9" }}>
+      {/* Use a square image stage (1:1) to keep product images consistent */}
+      <Box sx={{ position: "relative", pt: "100%", /* 1:1 Ratio */ overflow: "hidden", borderRadius: "16px 16px 0 0", bgcolor: "#f1f5f9" }}>
         <CardMedia
           component="img"
           image={product.image}
@@ -87,7 +88,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onViewDetail 
             left: 0,
             width: "100%",
             height: "100%",
-            objectFit: "cover",
+            objectFit: "contain",
             transition: "transform 0.5s ease",
             "&:hover": {
               transform: "scale(1.08)"

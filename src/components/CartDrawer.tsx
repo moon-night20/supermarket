@@ -152,7 +152,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({ open, onClose }) => {
                           src={item.product.image} 
                           alt={item.product.name}
                           referrerPolicy="no-referrer"
-                          sx={{ width: 70, height: 70, borderRadius: "12px", objectFit: "cover", bgcolor: "grey.100" }}
+                          sx={{ width: 80, height: 80, borderRadius: "12px", objectFit: "cover", bgcolor: "grey.100" }}
                         />
 
                         {/* Details */}
